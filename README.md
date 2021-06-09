@@ -362,6 +362,14 @@ returns false. What do you think will happen if we initialize `string` to
 happens. Also try doing the same thing with `toLowerCase()` and make sure you
 understand what's happening.
 
+const string = "HELLo";
+
+console.log(string);
+console.log(string.toUpperCase());
+
+string === string.toUpperCase();
+
+
 Basically, if we compare a string to its uppercased (or lowercased) version and
 the two values are equal, then we know that the original string is uppercase (or
 lowercase). So now that we know how to make these comparisons, how can we use
